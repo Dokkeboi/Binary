@@ -1,4 +1,4 @@
-function dec2bin(number) {
+function numToBin(number) {
   var bin = "";
 
   while(number > 0) {
@@ -10,4 +10,4 @@ function dec2bin(number) {
 
 }
 
-document.getElementById("demo").innerHTML = dec2bin(15);
+document.getElementById("demo").innerHTML = numToBin(76); //indsæt vilkårlig tal for at teste det :3
